@@ -1,0 +1,86 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            07:30:7f:b1:ed:0f:5e:57:2a:d7:07:4b:ca:1c:86:07
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN=Sunjin
+        Validity
+            Not Before: Feb 17 09:13:32 2018 GMT
+            Not After : Feb 15 09:13:32 2028 GMT
+        Subject: CN=caddy.local
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:c8:6b:d6:17:f7:93:1a:b8:ad:8c:c5:92:c8:bf:
+                    29:26:88:5a:d2:92:eb:21:0a:00:8f:fd:72:94:f6:
+                    60:db:e8:14:85:af:93:15:f2:18:af:4d:96:c5:9d:
+                    52:bd:9e:f4:ac:df:4c:c2:91:46:47:a3:58:0c:29:
+                    2d:1a:79:eb:bf:ba:c0:3a:e0:49:f4:8f:82:97:a6:
+                    93:0d:d4:28:c5:4e:03:a3:14:45:32:37:dc:8e:7e:
+                    a8:12:1c:e6:73:3b:a2:21:94:3a:a7:98:ec:46:ea:
+                    92:0b:ab:c5:44:e8:64:55:5e:f9:92:0c:54:5e:ef:
+                    74:38:d3:18:7a:13:d5:61:bf:fe:cb:f2:f8:f8:3b:
+                    61:5b:a1:bb:3f:ca:20:5a:35:0c:04:93:e7:4e:41:
+                    c0:e1:82:88:33:d1:b0:99:5f:11:78:39:d2:24:2b:
+                    98:e6:f8:f2:8f:43:5e:05:2f:d1:57:3c:c5:a5:f7:
+                    89:84:e5:4a:20:09:7a:45:fb:56:b1:cb:2a:6a:03:
+                    56:a9:d1:64:ad:2a:4c:a3:88:50:d9:79:2b:76:24:
+                    36:db:1a:b5:df:6e:54:f8:2f:00:ff:2c:60:be:57:
+                    52:4e:38:e2:bd:d2:a1:3d:55:cc:1c:d8:1e:e4:37:
+                    6a:16:f4:e9:f1:41:3a:31:75:d4:76:4d:e9:6b:a1:
+                    ad:83
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                71:6E:CF:2B:94:E9:6D:0B:21:32:4C:5E:6E:B8:51:1F:FD:2D:FD:75
+            X509v3 Authority Key Identifier: 
+                keyid:22:D3:F0:B7:07:B4:13:E3:44:49:F8:0A:6F:23:83:D0:A4:4E:5B:33
+                DirName:/CN=Sunjin
+                serial:FE:CB:61:31:82:FA:BF:12
+
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 Subject Alternative Name: 
+                DNS:caddy.local
+    Signature Algorithm: sha256WithRSAEncryption
+         05:29:2a:41:04:96:b0:82:fb:81:77:64:d2:a6:28:40:e3:0f:
+         3c:8f:82:cf:09:94:2b:0b:9e:15:d5:7b:1d:03:c6:bf:20:09:
+         2b:ad:4c:52:51:4c:4c:24:62:9c:6d:5a:23:b6:ab:49:32:d3:
+         b8:02:81:aa:95:d5:bf:21:27:6e:36:8a:68:76:ab:bd:dd:58:
+         f5:dd:e0:a8:35:5d:67:45:99:0d:e9:2b:b1:10:d8:ac:b3:f5:
+         34:e3:c0:88:4f:1d:a1:c1:8d:2a:15:b2:d7:df:a8:5f:b7:03:
+         0c:dd:36:b2:68:fd:ae:d1:ab:e6:ca:0c:7d:97:93:83:f0:47:
+         50:0d:95:32:ec:05:d9:4f:51:9a:58:aa:fb:f5:c1:fa:68:02:
+         f8:dc:e3:f1:b9:77:dc:32:22:5d:59:27:44:11:d7:2e:18:8d:
+         16:45:46:db:ad:95:4d:2c:6d:d7:d7:62:ce:4f:ef:e0:f0:4a:
+         3f:a3:65:2f:81:3c:ad:53:af:77:16:b7:51:bd:b9:c9:6d:48:
+         c4:c1:e7:17:4f:97:18:ee:83:85:62:8e:cb:d6:84:07:c5:5d:
+         52:dd:59:7c:26:32:71:46:54:b1:86:4b:70:3d:0d:5f:37:c0:
+         c0:15:e6:f5:fa:60:9d:53:cc:ec:53:54:1d:6a:2c:fe:5c:15:
+         cb:5f:76:19
+-----BEGIN CERTIFICATE-----
+MIIDXDCCAkSgAwIBAgIQBzB/se0PXlcq1wdLyhyGBzANBgkqhkiG9w0BAQsFADAR
+MQ8wDQYDVQQDDAZTdW5qaW4wHhcNMTgwMjE3MDkxMzMyWhcNMjgwMjE1MDkxMzMy
+WjAWMRQwEgYDVQQDDAtjYWRkeS5sb2NhbDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBAMhr1hf3kxq4rYzFksi/KSaIWtKS6yEKAI/9cpT2YNvoFIWvkxXy
+GK9NlsWdUr2e9KzfTMKRRkejWAwpLRp567+6wDrgSfSPgpemkw3UKMVOA6MURTI3
+3I5+qBIc5nM7oiGUOqeY7EbqkgurxUToZFVe+ZIMVF7vdDjTGHoT1WG//svy+Pg7
+YVuhuz/KIFo1DAST505BwOGCiDPRsJlfEXg50iQrmOb48o9DXgUv0Vc8xaX3iYTl
+SiAJekX7VrHLKmoDVqnRZK0qTKOIUNl5K3YkNtsatd9uVPgvAP8sYL5XUk444r3S
+oT1VzBzYHuQ3ahb06fFBOjF11HZN6WuhrYMCAwEAAaOBqjCBpzAJBgNVHRMEAjAA
+MB0GA1UdDgQWBBRxbs8rlOltCyEyTF5uuFEf/S39dTBBBgNVHSMEOjA4gBQi0/C3
+B7QT40RJ+ApvI4PQpE5bM6EVpBMwETEPMA0GA1UEAwwGU3VuamluggkA/sthMYL6
+vxIwEwYDVR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQDAgWgMBYGA1UdEQQPMA2C
+C2NhZGR5LmxvY2FsMA0GCSqGSIb3DQEBCwUAA4IBAQAFKSpBBJawgvuBd2TSpihA
+4w88j4LPCZQrC54V1XsdA8a/IAkrrUxSUUxMJGKcbVojtqtJMtO4AoGqldW/ISdu
+Nopodqu93Vj13eCoNV1nRZkN6SuxENiss/U048CITx2hwY0qFbLX36hftwMM3Tay
+aP2u0avmygx9l5OD8EdQDZUy7AXZT1GaWKr79cH6aAL43OPxuXfcMiJdWSdEEdcu
+GI0WRUbbrZVNLG3X12LOT+/g8Eo/o2UvgTytU693FrdRvbnJbUjEwecXT5cY7oOF
+Yo7L1oQHxV1S3Vl8JjJxRlSxhktwPQ1fN8DAFeb1+mCdU8zsU1Qdaiz+XBXLX3YZ
+-----END CERTIFICATE-----

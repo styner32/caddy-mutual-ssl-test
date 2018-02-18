@@ -1,0 +1,7 @@
+client/*
+!client/*.go
+server/*
+!server/*.go
+!server/Dockerfile
+certgen/*
+!certgen/*.go

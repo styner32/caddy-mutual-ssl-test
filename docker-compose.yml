@@ -1,0 +1,18 @@
+version: '3.2'
+services:
+  sunjin.local:
+    build:
+      context: .
+      dockerfile: "Dockerfile-server"
+    ports:
+      - "8080:8080"
+    environment:
+      - GODEBUG=http2debug=1
+  caddy:
+    build:
+      context: .
+      dockerfile: "Dockerfile-caddy"
+    depends_on:
+      - sunjin.local
+    ports:
+      - "8443:8443"

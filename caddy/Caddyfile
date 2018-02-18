@@ -1,0 +1,7 @@
+caddy.local:8443 {
+  log stdout
+  errors stdout
+  proxy / https://sunjin.local:8080
+  tls pki/issued/caddy.local.crt pki/private/caddy.local.key
+}
+

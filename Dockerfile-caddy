@@ -1,0 +1,12 @@
+FROM alpine:3.6
+MAINTAINER Sunjin Lee
+
+RUN apk add --no-cache curl
+
+ADD pki pki
+ADD caddy/Caddyfile Caddyfile
+ADD caddy/caddy caddy
+
+RUN chmod +x caddy
+
+CMD ["./caddy"]

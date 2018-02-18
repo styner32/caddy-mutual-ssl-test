@@ -1,0 +1,9 @@
+FROM golang:1.9
+MAINTAINER Sunjin Lee
+
+ADD server/server.go server.go
+ADD pki pki
+
+RUN go get golang.org/x/net/http2
+
+CMD ["go", "run", "server.go"]
